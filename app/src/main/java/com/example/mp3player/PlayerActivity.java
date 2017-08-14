@@ -124,6 +124,7 @@ public class PlayerActivity extends Activity {
             stop.setVisibility(View.INVISIBLE);
             pause.setVisibility(View.INVISIBLE);
             start.setVisibility(View.VISIBLE);
+            pause.setImageResource(R.drawable.pause);
             isPlaying = false;
             isPause = false;
             isReleased = true;
